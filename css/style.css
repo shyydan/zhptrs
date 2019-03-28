@@ -18,7 +18,7 @@ body {
     padding-top: 100px;
 }
 
-.logo > img {
+.logo > a > img {
     width: 100%;
 }
 
