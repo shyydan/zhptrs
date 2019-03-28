@@ -1,0 +1,107 @@
+body {
+    background-color:black;
+    color: whitesmoke;
+}
+
+.future {
+    opacity: 0.3;
+}
+
+/* .cover-container {
+    height: 100vh;
+} */
+
+.logo {
+    width: 200px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.logo > img {
+    width: 100%;
+}
+
+.hotgay {
+    padding-top: 50px;
+}
+
+.btn-danger {
+    margin-top: 15px;
+    padding: 15px;
+    width: 250px;
+    height: 60px;
+    letter-spacing: 5px;
+}
+
+.order {
+    margin-top: 70px;
+    background-color: blueviolet;
+    padding: 30px;
+}
+
+.order > button > a {
+    color: #fff;
+    text-decoration-color: yellow;
+    text-decoration-style: wavy;
+}
+
+.modal-content {
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+}
+
+.modal-content > .btn {
+    border-radius: 0px!important;
+    padding: 15px;
+
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 740px;}
+}
+
+
+#arrow > img {
+    animation: puls 1s infinite ease-in-out;
+    transform-origin: center;
+    width: 20px;
+}
+
+.social-btn {
+    margin-top: 100px;
+}
+
+.social-list {
+    margin-top: 15px;
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-list > li {
+    flex-direction: column;
+    padding: 15px;
+}
+
+.social-list > li > a {
+    color: blueviolet !important;
+}
+
+@keyframes puls {
+    0% {
+        transform: rotate(-90deg);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(-90deg);
+    }
+}
